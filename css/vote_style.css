@@ -1,0 +1,31 @@
+#item ul li{
+	float:left;
+	margin-left:15px;	
+}
+/*答案底下的那條橫線*/
+#hrdiv {
+	clear:both ;
+}
+/*新增題目的文字區塊*/
+#title{
+	width: 250px;
+}
+
+/*顯示投票答案統計票數table區塊*/
+.tab_answer tr td{	
+	width: auto;
+	padding-left: 10px;
+}
+.tab_answer tr td.spacing{	
+	width: 50px;
+}
+.tab_answer tr td.count{	
+	width: 100px;
+	margin-left: 50px;
+	background-color:#CCC;
+}
+A{font-family: Verdana, Geneva, sans-serif; }/*文字風格字型*/
+A:link{text-decoration:none;color:#b5b5bf;}
+A:visited{text-decoration:none;color:#776688;}
+A:active{text-decoration:none;color:#000FF;}
+A:hover{text-decoration:none;color:#b5b5bf;}
